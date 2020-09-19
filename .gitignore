@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Avoid /designs folder upload 
+#######################################
+## Please do not remove - thanks! 🙂 ##
+#######################################
+/designs/
+
+# Avoid accidental Sketch file upload 
+#######################################
+## Please do not remove - thanks! 🙂 ##
+#######################################
+*.sketch

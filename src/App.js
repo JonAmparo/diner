@@ -2,10 +2,9 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { GlobalStyle } from 'styles';
-
 import { Home, Footer } from 'components';
 
-const App = () => {
+function App() {
   return (
     <Fragment>
       <GlobalStyle />
@@ -17,6 +16,6 @@ const App = () => {
       </Router>
     </Fragment>
   );
-};
+}
 
 export default App;
