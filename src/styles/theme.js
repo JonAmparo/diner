@@ -31,6 +31,7 @@ const theme = {
     body: '1.125rem',
     small: '0.9375rem',
     btn: '0.875rem',
+    footer: '1.25rem',
   },
 
   lineHeights: {
@@ -41,6 +42,7 @@ const theme = {
     body: '1.875rem',
     small: '1.75rem',
     btn: '1rem',
+    footer: '1.25rem',
   },
 
   letterSpacings: {
@@ -51,6 +53,7 @@ const theme = {
     body: '-0.014375rem',
     small: '-0.011875rem',
     btn: '0.125rem',
+    footer: '2px',
   },
 
   cardShadow: '0 7.5rem 10rem -5rem rgba(56, 66, 85, 0.5);',

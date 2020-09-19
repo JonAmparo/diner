@@ -86,6 +86,16 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
   }
 
+  .text-footer {
+    font-size: ${fontSizes.footer};
+    line-height: ${lineHeights.footer};
+    letter-spacing: ${letterSpacings.footer};
+    font-weight: 600;
+    color: ${colors.white};
+    text-transform: uppercase;
+
+  }
+
   .text-white {
     color: ${colors.white};
   }
@@ -112,22 +122,26 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .btnDark {
-    color: white;
+    color: ${colors.white};
     background-color: transparent;
-    border: 1px solid white;
-    transition: ${theme.transition} background-color, ${theme.transition} white, ${theme.transition} border-color;
+    border: 1px solid ${colors.white};
+    transition: ${theme.transition} background-color, ${
+  theme.transition
+} white, ${theme.transition} border-color;
 
     &:hover {
       color: ${colors.codGray};
-      background-color: white;
+      background-color: ${colors.white};
     }
   }
 
   .btnLight {
     background-color: ${colors.codGray};
-    color: white;
+    color: ${colors.white};
     border: 1px solid transparent;
-    transition: ${theme.transition} background-color, ${theme.transition} white, ${theme.transition} border-color;
+    transition: ${theme.transition} background-color, ${
+  theme.transition
+} white, ${theme.transition} border-color;
 
     &:hover {
       color: ${colors.codGray};

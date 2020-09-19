@@ -9,9 +9,9 @@ function App() {
     <Fragment>
       <GlobalStyle />
       <Router history={createBrowserHistory}>
-        <Switch>
+        {/* <Switch>
           <Route exact path='/' render={() => <Home />} />
-        </Switch>
+        </Switch> */}
         <Footer />
       </Router>
     </Fragment>

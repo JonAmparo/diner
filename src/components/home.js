@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { theme, media, mixins } from 'styles';
+import { theme, mixins, media } from 'styles';
 import Button from './Button';
 
 import Logo from 'images/logo.svg';
@@ -450,12 +450,6 @@ const ContainerCTA = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-  `}
-`;
-
-const EMPTY1 = styled.div`
-  ${media.desktop`
-    
   `}
 `;
 
