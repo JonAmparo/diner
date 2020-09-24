@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/diner/static/js/main.00642ca1.chunk.js",
-    "main.js.map": "/diner/static/js/main.00642ca1.chunk.js.map",
+    "main.js": "/diner/static/js/main.c7253c54.chunk.js",
+    "main.js.map": "/diner/static/js/main.c7253c54.chunk.js.map",
     "runtime-main.js": "/diner/static/js/runtime-main.a111a15d.js",
     "runtime-main.js.map": "/diner/static/js/runtime-main.a111a15d.js.map",
-    "static/js/2.97f19353.chunk.js": "/diner/static/js/2.97f19353.chunk.js",
-    "static/js/2.97f19353.chunk.js.map": "/diner/static/js/2.97f19353.chunk.js.map",
+    "static/js/2.dbaa4aec.chunk.js": "/diner/static/js/2.dbaa4aec.chunk.js",
+    "static/js/2.dbaa4aec.chunk.js.map": "/diner/static/js/2.dbaa4aec.chunk.js.map",
     "index.html": "/diner/index.html",
-    "precache-manifest.d5581cabfbc0aa9c58a2e9fd063bb6d2.js": "/diner/precache-manifest.d5581cabfbc0aa9c58a2e9fd063bb6d2.js",
+    "precache-manifest.99435887df60b5ecaa5de92011f403a4.js": "/diner/precache-manifest.99435887df60b5ecaa5de92011f403a4.js",
     "service-worker.js": "/diner/service-worker.js",
-    "static/js/2.97f19353.chunk.js.LICENSE.txt": "/diner/static/js/2.97f19353.chunk.js.LICENSE.txt",
+    "static/js/2.dbaa4aec.chunk.js.LICENSE.txt": "/diner/static/js/2.dbaa4aec.chunk.js.LICENSE.txt",
     "static/media/Spartan-Black.ttf": "/diner/static/media/Spartan-Black.2af45391.ttf",
     "static/media/Spartan-Bold.ttf": "/diner/static/media/Spartan-Bold.a3b8dba8.ttf",
     "static/media/Spartan-ExtraBold.ttf": "/diner/static/media/Spartan-ExtraBold.94468be5.ttf",
@@ -54,7 +54,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a111a15d.js",
-    "static/js/2.97f19353.chunk.js",
-    "static/js/main.00642ca1.chunk.js"
+    "static/js/2.dbaa4aec.chunk.js",
+    "static/js/main.c7253c54.chunk.js"
   ]
 }
