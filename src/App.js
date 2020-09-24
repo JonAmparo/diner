@@ -1,17 +1,17 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
 import { GlobalStyle } from 'styles';
-import { Home, Footer } from 'components';
+import { Home, Footer, Reservation } from 'components';
 
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <Router history={createBrowserHistory}>
-        {/* <Switch>
+      <Router >
+        <Switch>
           <Route exact path='/' render={() => <Home />} />
-        </Switch> */}
+          <Route exact path='/reservation' render={() => <Reservation />} />
+        </Switch>
         <Footer />
       </Router>
     </Fragment>

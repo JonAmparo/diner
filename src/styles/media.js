@@ -2,7 +2,8 @@ import { css } from 'styled-components';
 
 const sizes = {
   desktop: 1200,
-  tabletEnd: 74.9375, //1199 px / 16
+  tabletOnly: 1199,
+  tabletMax: 1199,
   tablet: 768,
   mobile: 767,
 };
@@ -17,9 +18,22 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
           ${css(...args)};
         }
       `;
+    } else if (label === 'tabletOnly') {
+      const tabletMin = sizes.tablet / 16;
+      return css`
+        @media (min-width: ${tabletMin}em) and (max-width: ${emSize}em) {
+          ${css(...args)};
+        }
+      `;
+    } else if (label === 'tabletMax') {
+      return css`
+        @media (max-width: ${emSize}em) {
+          ${css(...args)};
+        }
+      `;
     } else if (label === 'tablet') {
       return css`
-        @media (min-width: ${emSize}em) and (max-width: ${sizes.tabletEnd}em) {
+        @media (min-width: ${emSize}em) {
           ${css(...args)};
         }
       `;

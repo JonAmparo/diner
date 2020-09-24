@@ -1,37 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { theme, media, mixins } from 'styles';
-const { fonts, colors, fontSizes, screensize } = theme;
+import { theme, media } from 'styles';
+const { colors } = theme;
 
 const SectionFooter = styled.footer`
   background-color: ${colors.codGray};
 
-  ${media.mobile`
-    padding: 4rem 2.5rem;
-    background-color: yellow;
-  `}
-
-  ${media.tablet`
-    padding: 4rem 2.5rem;
-    background-color: pink;
-  `}
-
   ${media.desktop`
-    padding: 4.875rem 0;
-    background-color: cyan;
+    padding: 7.8rem 0;
+  `}
+
+  ${media.tabletOnly`
+    padding: 6.4rem 4rem;
+  `}
+
+  ${media.mobile`
+    padding: 8rem 2.4rem;
+    text-align: center;
   `}
 
   .container {
-    ${media.tablet`
-      max-width: 58.75rem;
+    ${media.desktop`
+      max-width: 111rem;
       margin: 0 auto;
       display: flex;
     `}
 
-    ${media.desktop`
-      max-width: 69.375rem;
+    ${media.tabletOnly`
+      max-width: 94rem;
       margin: 0 auto;
       display: flex;
     `}
@@ -39,29 +36,29 @@ const SectionFooter = styled.footer`
 
   .information {
     ${media.tablet`
-      margin-left: 8.125rem;
+      margin-left: 13rem;
       display: flex;
       flex-flow: row wrap;
     `}
 
     ${media.desktop`
-      margin-left: 12.03625rem;
+      margin-left: 19.25rem;
     `}
   }
 
   .contact {
-    ${media.mobile`
-      margin-top: 2.5rem;
-      margin-bottom: 2rem;
-    `}
-
-    ${media.tablet`
-      margin-bottom: 2rem;
-      margin-right: 3.875rem;
-    `}
-
     ${media.desktop`
-      margin-right: 7.75rem;
+      margin-right: 12.4rem;
+    `}
+
+    ${media.tabletOnly`
+      margin-bottom: 3.2rem;
+      margin-right: 6.2rem;
+    `}
+
+    ${media.mobile`
+      margin-top: 4rem;
+      margin-bottom: 3.2rem;
     `}
   }
 `;
@@ -88,7 +85,7 @@ const Footer = () => {
               +00 44 123 4567
             </p>
           </div>
-          <div className='time'>
+          <div className='times'>
             <p className='text-footer'>
               Open Times
               <br />
