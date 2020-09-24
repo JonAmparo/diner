@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/diner/static/js/main.0d1b9402.chunk.js",
-    "main.js.map": "/diner/static/js/main.0d1b9402.chunk.js.map",
+    "main.js": "/diner/static/js/main.5a13506c.chunk.js",
+    "main.js.map": "/diner/static/js/main.5a13506c.chunk.js.map",
     "runtime-main.js": "/diner/static/js/runtime-main.a111a15d.js",
     "runtime-main.js.map": "/diner/static/js/runtime-main.a111a15d.js.map",
     "static/js/2.87c91cc9.chunk.js": "/diner/static/js/2.87c91cc9.chunk.js",
     "static/js/2.87c91cc9.chunk.js.map": "/diner/static/js/2.87c91cc9.chunk.js.map",
     "index.html": "/diner/index.html",
-    "precache-manifest.d4a7daea42d8abff36f0f6888a23e2c1.js": "/diner/precache-manifest.d4a7daea42d8abff36f0f6888a23e2c1.js",
+    "precache-manifest.3f4121c12bf30431d36d1ec868a85ce8.js": "/diner/precache-manifest.3f4121c12bf30431d36d1ec868a85ce8.js",
     "service-worker.js": "/diner/service-worker.js",
     "static/js/2.87c91cc9.chunk.js.LICENSE.txt": "/diner/static/js/2.87c91cc9.chunk.js.LICENSE.txt",
     "static/media/Spartan-Black.ttf": "/diner/static/media/Spartan-Black.2af45391.ttf",
@@ -55,6 +55,6 @@
   "entrypoints": [
     "static/js/runtime-main.a111a15d.js",
     "static/js/2.87c91cc9.chunk.js",
-    "static/js/main.0d1b9402.chunk.js"
+    "static/js/main.5a13506c.chunk.js"
   ]
 }
